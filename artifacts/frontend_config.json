@@ -1,0 +1,34 @@
+{
+  "input_type": "image_file",
+  "accepted_extensions": [
+    "jpg",
+    "jpeg",
+    "png"
+  ],
+  "output": {
+    "predicted_class": "string",
+    "confidence": "float",
+    "top_k": [
+      {
+        "class_name": "string",
+        "probability": "float"
+      }
+    ]
+  },
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "resize": [
+      224,
+      224
+    ]
+  }
+}
