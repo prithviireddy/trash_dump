@@ -108,7 +108,7 @@ Normalization uses ImageNet statistics: `mean=[0.485, 0.456, 0.406]`, `std=[0.22
 │   ├── frontend_config.json
 │   ├── metadata.json
 │   └── sample_request.json
-└── garbage-classification-efficientnet-b3.ipynb
+└── trash.ipynb
 ```
 
 ---
@@ -123,7 +123,7 @@ pip install torch torchvision scikit-learn pandas matplotlib seaborn tqdm pillow
 
 ### 2. Run the notebook
 
-Open `garbage-classification-efficientnet-b3.ipynb` and run cells sequentially. The notebook auto-detects the dataset path from `candidate_paths`.
+Open `trash.ipynb` and run cells sequentially. The notebook auto-detects the dataset path from `candidate_paths`.
 
 > **Windows users:** Set `NUM_WORKERS = 0` and remove `prefetch_factor` from all DataLoader calls to avoid multiprocessing deadlocks in Jupyter.
 
